@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rui (Ray) Yin on Rui (Ray) Yin</title>
+    <link>https://raytrox.github.io/</link>
+    <description>Recent content in Rui (Ray) Yin on Rui (Ray) Yin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 23:40:25 -0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>https://raytrox.github.io/about/</link>
+      <pubDate>Wed, 01 Jan 2020 23:40:25 -0800</pubDate>
+      
+      <guid>https://raytrox.github.io/about/</guid>
+      <description>&lt;h1 id=&#34;some-facts-about-myself&#34;&gt;Some facts about myself&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Currently a 4th-year student of University of British Columbia majoring in computer science&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
