@@ -1,12 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rui (Ray) Yin on Rui (Ray) Yin</title>
+    <title>I&#39;m Rui (Ray) Yin on I&#39;m Rui (Ray) Yin</title>
     <link>https://raytrox.github.io/</link>
-    <description>Recent content in Rui (Ray) Yin on Rui (Ray) Yin</description>
+    <description>Recent content in I&#39;m Rui (Ray) Yin on I&#39;m Rui (Ray) Yin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 23:40:25 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 19:16:49 -0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Posts</title>
+      <link>https://raytrox.github.io/posts/</link>
+      <pubDate>Thu, 02 Jan 2020 19:16:49 -0800</pubDate>
+      
+      <guid>https://raytrox.github.io/posts/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>About</title>
@@ -14,20 +23,95 @@
       <pubDate>Wed, 01 Jan 2020 23:40:25 -0800</pubDate>
       
       <guid>https://raytrox.github.io/about/</guid>
-      <description>&lt;h1 id=&#34;some-facts-about-myself&#34;&gt;Some facts about myself&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;rui-ray-yin&#34;&gt;Rui (Ray) Yin&lt;/h1&gt;
+&lt;p&gt;The pdf version of resume can be downloaded from &lt;a href=&#34;../static/files/resume.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;BSc, Computer Science, University of British Columbia (Vancouver, Canada) | Sep 2016 - current&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Currently a 4th-year student of University of British Columbia majoring in computer science&lt;/li&gt;
+&lt;li&gt;Overall GPA: 4.2/4.33 (average: 88.3%)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;working-experience&#34;&gt;Working Experience&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Teaching Assistant for CPSC 313, The University of British Columbia｜Sep 2019 - Dec 2019&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Instructed students in Office Hours to aid with assignments, course materials including debugging.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Invigilated and marked the exams and graded the assignments as directed by instructor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Software QA engineer, VIPRE (formerly Fusemail) | Jan 2019 - Aug 2019&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Developed a Golang based test automation tool to check result of REST calls. The tool uses docker to bring up all services and check database, NSQ message, HTML response based on the implementation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Responsible for the manual, load, automation and performance test for a LDAP-based new product, created necessary mock services for test automation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Staff Assistant, Beijing BLS Spain Visa Centre ｜ Jan 2016 - May 2016&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Checked information for over 50 applicants per day in a team of 5.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Took fingerprints and photos of over 30 applicants per day Individually.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;academic-projects&#34;&gt;Academic Projects&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Course Checker – html, Golang, RESTful | Dec 2019 - current&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Parsed html and notified the user by sending email once there are seats available.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ran as a server and took REST request to monitor the specific course in the background.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;awards&#34;&gt;Awards&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Trek Excellence Scholarship | 2018, 2019&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Trek Excellence Scholarships are offered every year to students in the top 5% of their undergraduate year, faculty, and school. Domestic students receive an award of $1,500 and international students receive an award of $4,000. Awards of $1,000 are also given to international students who are in the top 5% to 10%.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Faculty of Science International Student Scholarship | 2018, 2019&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Scholarships of amounts of up to $10,000 each are offered to continuing international students in the Faculty of Science, Vancouver campus. Students selected for these scholarships must have completed at least 30 credits towards their undergraduate degree or be entering the second year of their program. Students must demonstrate strong academic achievement, engagement in the Faculty, and the potential to make a scholarly contribution within their chosen field of study. The scholarships are made on the recommendation of the Faculty of Science.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dean of Science Scholarship | 2018&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The awards are offered to undergraduate students in science and are made on the recommendation of the Faculty.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;languages&#34;&gt;Languages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;English&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mandarin&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;personal-interests&#34;&gt;Personal Interests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Video Editing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NBA&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid></guid>
-      <description></description>
     </item>
     
   </channel>

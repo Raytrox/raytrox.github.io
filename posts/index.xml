@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on I&#39;m Rui (Ray) Yin</title>
+    <link>https://raytrox.github.io/posts/</link>
+    <description>Recent content in Posts on I&#39;m Rui (Ray) Yin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jan 2020 19:16:49 -0800</lastBuildDate>
+    
+	<atom:link href="https://raytrox.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Blog</title>
+      <link>https://raytrox.github.io/2020/first-blog/</link>
+      <pubDate>Thu, 02 Jan 2020 19:16:49 -0800</pubDate>
+      
+      <guid>https://raytrox.github.io/2020/first-blog/</guid>
+      <description>#First Blog</description>
+    </item>
+    
+  </channel>
+</rss>
