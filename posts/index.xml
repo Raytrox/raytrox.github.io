@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>First Blog</title>
+      <title>Some takeaway from CPSC213 (2017W2)</title>
       <link>https://raytrox.github.io/2020/first-blog/</link>
       <pubDate>Thu, 02 Jan 2020 19:16:49 -0800</pubDate>
       
       <guid>https://raytrox.github.io/2020/first-blog/</guid>
-      <description>#First Blog</description>
+      <description>CS213 review 1. The most serious symptom of a dangling pointer bug: The memory pointed to by the dangling pointer may be re-allocated for some other use and then the program might use the dangling-pointer to erroneously update the newly allocated thing, thinking it’s updating the old thing.
+2. The most serious symptom of a memory leak: The program could eventually exhaust memory and slow itself, and the entire system it runs on.</description>
     </item>
     
   </channel>
