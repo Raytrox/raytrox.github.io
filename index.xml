@@ -33,10 +33,10 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;working-experience&#34;&gt;Working Experience&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Teaching Assistant for CPSC 313, The University of British Columbia｜Sep 2019 - Dec 2019&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Teaching Assistant, The University of British Columbia｜Sep 2019 - Dec 2019&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Instructed students in Office Hours to aid with assignments, course materials including debugging.&lt;/p&gt;
+&lt;p&gt;Instructed students in office hours to aid with assignments, course materials of a 3rd-year course on Operating Systems including debugging assignments and illustrating concepts such as memory hierarchy and file systems.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Invigilated and marked the exams and graded the assignments as directed by instructor.&lt;/p&gt;
@@ -48,7 +48,10 @@
 &lt;p&gt;Developed a Golang based test automation tool to check result of REST calls. The tool uses docker to bring up all services and check database, NSQ message, HTML response based on the implementation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Responsible for the manual, load, automation and performance test for a LDAP-based new product, created necessary mock services for test automation.&lt;/p&gt;
+&lt;p&gt;Oversaw the manual, load, automation and performance tests for a LDAP-based new product, created necessary mock services for test automation and presented the demo to stakeholders.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Attended daily scrum meetings and worked on various verification tickets across such as UI or database change in both development and staging environment.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Staff Assistant, Beijing BLS Spain Visa Centre ｜ Jan 2016 - May 2016&lt;/strong&gt;&lt;/p&gt;
@@ -62,7 +65,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;academic-projects&#34;&gt;Academic Projects&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Course Checker – html, Golang, RESTful | Dec 2019 - current&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Course Checker – HTML, Golang, RESTful | Dec 2019 - current&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Parsed html and notified the user by sending email once there are seats available.&lt;/p&gt;
