@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noodp"/>
-  <meta name="author" content="Rui (Ray)">
+  <meta name="author" content="Rui">
   
   
   
@@ -22,10 +22,10 @@
   <title>
        
        
-           Some takeaway from CPSC213 (2017W2) | I&#39;m Rui (Ray) Yin
+           Some takeaway from CPSC213 (Introduction to Computer Systems) | Rui Yin
        
   </title>
-  <meta name="title" content="Some takeaway from CPSC213 (2017W2) | I&#39;m Rui (Ray) Yin">
+  <meta name="title" content="Some takeaway from CPSC213 (Introduction to Computer Systems) | Rui Yin">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,21 +44,21 @@
          "@id": "https:\/\/raytrox.github.io\/"
     },
     "articleSection" : "posts",
-    "name" : "Some takeaway from CPSC213 (2017W2)",
-    "headline" : "Some takeaway from CPSC213 (2017W2)",
-    "description" : "CS213 review 1. The most serious symptom of a dangling pointer bug: The memory pointed to by the dangling pointer may be re-allocated for some other use and then the program might use the dangling-pointer to erroneously update the newly allocated thing, thinking it’s updating the old thing.\n2. The most serious symptom of a memory leak: The program could eventually exhaust memory and slow itself, and the entire system it runs on.",
+    "name" : "Some takeaway from CPSC213 (Introduction to Computer Systems)",
+    "headline" : "Some takeaway from CPSC213 (Introduction to Computer Systems)",
+    "description" : "Introduction to Computer Systems Review 1. The most serious symptom of a dangling pointer bug: The memory pointed to by the dangling pointer may be re-allocated for some other use and then the program might use the dangling-pointer to erroneously update the newly allocated thing, thinking it’s updating the old thing.\n2. The most serious symptom of a memory leak: The program could eventually exhaust memory and slow itself, and the entire system it runs on.",
     "inLanguage" : "en-us",
-    "author" : "Rui (Ray)",
-    "creator" : "Rui (Ray)",
-    "publisher": "Rui (Ray)",
-    "accountablePerson" : "Rui (Ray)",
-    "copyrightHolder" : "Rui (Ray)",
+    "author" : "Rui",
+    "creator" : "Rui",
+    "publisher": "Rui",
+    "accountablePerson" : "Rui",
+    "copyrightHolder" : "Rui",
     "copyrightYear" : "2020",
     "datePublished": "2020-01-02 19:16:49 -0800 PST",
     "dateModified" : "2020-01-02 19:16:49 -0800 PST",
     "url" : "https:\/\/raytrox.github.io\/2020\/first-blog\/",
-    "wordCount" : "2331",
-    "keywords" : [  "I\x27m Rui (Ray) Yin"]
+    "wordCount" : "2334",
+    "keywords" : [ "Operating Systems", "Rui Yin"]
 }
 </script>
 
@@ -72,7 +72,7 @@
         <nav class="navbar">
     <div class="container">
         <div class="navbar-header header-logo">
-        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://raytrox.github.io/">I&#39;m Rui (Ray) Yin</a>
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://raytrox.github.io/">Rui Yin</a>
         </div>
         <div class="menu navbar-right">
                 
@@ -91,7 +91,7 @@
 <nav class="navbar-mobile" id="nav-mobile" style="display: none">
      <div class="container">
         <div class="navbar-header">
-            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://raytrox.github.io/">I&#39;m Rui (Ray) Yin</a></div>
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://raytrox.github.io/">Rui Yin</a></div>
             <div class="menu-toggle">
                 <span></span><span></span><span></span>
             </div>
@@ -116,14 +116,18 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Some takeaway from CPSC213 (2017W2)</h1>
+        <h1 class="post-title" itemprop="name headline">Some takeaway from CPSC213 (Introduction to Computer Systems)</h1>
         <div class="post-meta">
-                Written by <a itemprop="name" href="https://raytrox.github.io/" rel="author">Rui (Ray)</a> with ♥ 
+                Written by <a itemprop="name" href="https://raytrox.github.io/" rel="author">Rui</a> with ♥ 
                 <span class="post-time">
                 on <time datetime=2020-01-02 itemprop="datePublished">January 2, 2020</time>
                 </span>
                 in
-                
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://raytrox.github.io/categories/university/"> University </a>
+                        
+                </span>
         </div>
     </header>
     <div class="post-content">
@@ -142,19 +146,19 @@
           
           
 
-          <h1 id="cs213-review">CS213 review</h1>
+          <h1 id="introduction-to-computer-systems-review">Introduction to Computer Systems Review</h1>
 <h2 id="1-the-most-serious-symptom-of-a-dangling-pointer-bug">1. The most serious symptom of a dangling pointer bug:</h2>
 <p>The memory pointed to by the dangling pointer may be re-allocated for some other use and then the program might use the dangling-pointer to erroneously update the newly allocated thing, thinking it’s updating the old thing.</p>
 <h2 id="2-the-most-serious-symptom-of-a-memory-leak">2. The most serious symptom of a memory leak:</h2>
 <p>The program could eventually exhaust memory and slow itself, and the entire system it runs on.</p>
-<h2 id="3-javas-gc">3. Java's GC</h2>
+<h2 id="3-javas-gc">3. Java&rsquo;s GC</h2>
 <p>Java’s GC will eliminate dangling-pointer bug since it will only free memory when the object is not reachable via any pointer. But GC will not eliminate the memory-leak bug since sometimes program retain reference to objects that they never intend to use again. They are still reachable, so GC is unable to free them.</p>
 <h2 id="4-shift-in-c-and-java">4. shift in C and JAVA</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">char</span> b <span style="color:#f92672">=</span> 0x84
 <span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span><span style="color:#f92672">)</span>b<span style="color:#f92672">;</span> <span style="color:#75715e">// now b is 0xffffff84
-</span><span style="color:#75715e"></span><span style="color:#75715e">//If we want to avoid this situation 
-</span><span style="color:#75715e"></span><span style="color:#75715e">//then we need to mask
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>b <span style="color:#f92672">&amp;</span> 0xff<span style="color:#f92672">)</span><span style="color:#f92672">;</span> <span style="color:#75715e">// now a is 0x00000084
+</span><span style="color:#75715e">//If we want to avoid this situation 
+</span><span style="color:#75715e">//then we need to mask
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>b <span style="color:#f92672">&amp;</span> 0xff<span style="color:#f92672">);</span> <span style="color:#75715e">// now a is 0x00000084
 </span></code></pre></div><h2 id="5-endianess">5. Endianess</h2>
 <p>When we are using little endian, the order is the inverse order of big endian.
 When we read numbers, the order is the same as big endian.</p>
@@ -183,16 +187,16 @@ Trying to dereference a pointer that is null will cause an error as well.</p>
 
 <span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span> max;
 <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">saveIfMax</span>(<span style="color:#66d9ef">int</span><span style="color:#f92672">*</span> x) {
-  <span style="color:#66d9ef">if</span>(max <span style="color:#f92672">=</span><span style="color:#f92672">=</span> NULL <span style="color:#f92672">|</span><span style="color:#f92672">|</span> <span style="color:#f92672">*</span>x<span style="color:#f92672">&gt;</span><span style="color:#f92672">*</span>max) {
-    <span style="color:#66d9ef">if</span>(max <span style="color:#f92672">!</span><span style="color:#f92672">=</span> NULL)
+  <span style="color:#66d9ef">if</span>(max <span style="color:#f92672">==</span> NULL <span style="color:#f92672">||</span> <span style="color:#f92672">*</span>x<span style="color:#f92672">&gt;*</span>max) {
+    <span style="color:#66d9ef">if</span>(max <span style="color:#f92672">!=</span> NULL)
     dec_ref(max);
     max <span style="color:#f92672">=</span> x;
     inc_ref(max);
   }
 }
-</code></pre></div><p>If there is a global pointer, first need to check if it's null when it is used in a helper function. (example as above)</p>
+</code></pre></div><p>If there is a global pointer, first need to check if it&rsquo;s null when it is used in a helper function. (example as above)</p>
 <p>Sometimes, we call dec_ref because the pointer is assigned to some other object. Sometimes we call dec_ref because we are done with the pointer.
-There may be the case that when a pointer points to something in the function but we do not need to inc_refcount. That's because the pointer point to it is a local variable, if we inc_ref here the we will need to dec_ref in the end of the function (as long as it is not returned).</p>
+There may be the case that when a pointer points to something in the function but we do not need to inc_refcount. That&rsquo;s because the pointer point to it is a local variable, if we inc_ref here the we will need to dec_ref in the end of the function (as long as it is not returned).</p>
 <h2 id="8-assembly-to-c">8. Assembly to C</h2>
 <h3 id="1-check-if-there-is-any-incdec-in-the-loop-the-value-is-likely-to-be-the-iterator">1. Check if there is any inc/dec in the loop, the value is likely to be the iterator.</h3>
 <h3 id="2-if-there-is-only-one-ld-then-the-value-is-statically-allocated-if-there-are-2-lds-then-the-value-we-first-got-is-a-pointer">2. If there is only one ld, then the value is statically allocated. If there are 2 lds then the value we first got is a pointer.</h3>
@@ -244,17 +248,17 @@ A procedure return is a dynamic jump because a procedure can be called from mult
 <p>The return value is stored on r0
 For arguments, caller prologue pushes actual argument values onto stack and callee reads/writes arguments from/to the stack</p>
 <h2 id="2-reason-java-uses-dynamic-method-invocation-and-what-benefit-it-has">2. Reason Java uses dynamic method invocation and what benefit it has</h2>
-<p>Java's method invocations are dynamic because they read a jump table at runtime to determine which method to call. Which method is called is depends on the actual type of the object, since each class has its own jump table.
+<p>Java&rsquo;s method invocations are dynamic because they read a jump table at runtime to determine which method to call. Which method is called is depends on the actual type of the object, since each class has its own jump table.
 Dynamic method invocation allows for polymorphic dispatch to occur. Polymorphism is a powerful tool makes it easy to add functionality to existing code by simply extending a class and overriding methods.</p>
 <h2 id="3-disadvantage-of-dynamic-invocation">3. Disadvantage of dynamic invocation</h2>
-<p>Every method call has the addtional overhead of performing a memory read to determine which method to call. This can affect performance, especially for very short methods where a memoty read might consist of a significant amount of the method's execution time.</p>
+<p>Every method call has the addtional overhead of performing a memory read to determine which method to call. This can affect performance, especially for very short methods where a memoty read might consist of a significant amount of the method&rsquo;s execution time.</p>
 <h2 id="4-switch-statements">4. Switch statements</h2>
 <p>&ndash; using if rather than jump table
 If there are very few cases to consider, then the overhead of using a jumptable is higher than a few statements. Reading memory is much slower than executing a conditional branch.
 &ndash; using jump table rather than if
 When you have lots of cases to check and their values are close together(densely populated), the jump table is the best choice. When there are N cases, it takes O(N) to test all cases, whereas it will always take O(1) with a jump table. If the values are closer together, then we waste less memory creating the jump table.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">// 3 ways
-</span><span style="color:#75715e"></span><span style="color:#75715e">// switch 
+</span><span style="color:#75715e">// switch 
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">foo</span>() {
   <span style="color:#66d9ef">switch</span>(i) {
     <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">:</span>  j <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>; <span style="color:#66d9ef">break</span>;
@@ -264,9 +268,9 @@ When you have lots of cases to check and their values are close together(densely
 }
 <span style="color:#75715e">// if 
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">foo</span>() {
-  <span style="color:#66d9ef">if</span>(i <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>) {
+  <span style="color:#66d9ef">if</span>(i <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
     j <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
-  } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span>(i <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>) {
+  } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span>(i <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) {
     j <span style="color:#f92672">=</span> <span style="color:#ae81ff">11</span>;
   } <span style="color:#66d9ef">else</span> {
     j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
@@ -274,8 +278,8 @@ When you have lots of cases to check and their values are close together(densely
 }
 <span style="color:#75715e">// jumptable
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">foo</span>() {
-  <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">void</span><span style="color:#f92672">*</span> jt[<span style="color:#ae81ff">4</span>] <span style="color:#f92672">=</span> { <span style="color:#f92672">&amp;</span><span style="color:#f92672">&amp;</span>L0, <span style="color:#f92672">&amp;</span><span style="color:#f92672">&amp;</span>L1}
-  <span style="color:#66d9ef">if</span>(i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">|</span><span style="color:#f92672">|</span> i<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">1</span>) {
+  <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">void</span><span style="color:#f92672">*</span> jt[<span style="color:#ae81ff">4</span>] <span style="color:#f92672">=</span> { <span style="color:#f92672">&amp;&amp;</span>L0, <span style="color:#f92672">&amp;&amp;</span>L1}
+  <span style="color:#66d9ef">if</span>(i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">||</span> i<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">1</span>) {
     <span style="color:#66d9ef">goto</span> DEFAULT;
   }
   <span style="color:#66d9ef">goto</span> <span style="color:#f92672">*</span>jt[i];  <span style="color:#75715e">// note: *jt in assembly is double indirect jump (function pointer)
@@ -287,7 +291,7 @@ When you have lots of cases to check and their values are close together(densely
 </code></pre></div><h2 id="5-pio-and-dma">5. PIO and DMA</h2>
 <p>The CPU uses PIO to read or write to an IO device one word at a time. IO Devices use DMA to read or write memory directly, without involving the CPU. An advantage of PIO is that the CPU can use it to transfer data to an IO device, or control it; e.g. to signal the IO device that the CPU wants something. Another advantage is that PIO has lower overhead and lower latency for very small transfers because it avoids the overhead of setting up a DMA. The advantage of DMA is that the transfer occurs asynchronously to the CPU and so the CPU is free to do other things during the transfer. For any transfer larger than 64-128bytes, DMA typically transfers with loweroverhead and latency than PIO.</p>
 <h2 id="6-interrupts">6. Interrupts</h2>
-<p>If interruts didn't exist, a program would have to repeatedly poll the IO device to determine whether the device had information (e.g. keyboard press) for it. The disadvantages of polling are that it wastes CPU cycles unnecessarily when the IO device doesn't have information for the CPU. If polling is very frequent, then this overhead is very high.
+<p>If interruts didn&rsquo;t exist, a program would have to repeatedly poll the IO device to determine whether the device had information (e.g. keyboard press) for it. The disadvantages of polling are that it wastes CPU cycles unnecessarily when the IO device doesn&rsquo;t have information for the CPU. If polling is very frequent, then this overhead is very high.
 Infrequent polling may not be a suitable solution either because it increases the latency (i.e. delay) between when an IO device notifies the CPU that it wants its attention, and when CPU actually notices it. This would increase, for example, the latency of disk and network reads. There is an undesirable tradeoff between latency and CPU &lsquo;wastage&rsquo;.</p>
 <h2 id="7-interrupts-in-sm213">7. Interrupts in SM213</h2>
 <p>Insert a new stage just before the fetch stage. Check there to see if there is an interrupt pending and if so, jump to address specifies in the interrupt vector table. This will invoke the specific interrupt service routine for the given type of interrupt.</p>
@@ -296,7 +300,7 @@ Infrequent polling may not be a suitable solution either because it increases th
 <p>IO can take quite long, and in this time the CPU can be doing other things. Threads provide this flexibility because they can easily be blocked when they are waiting for something, and the CPU can go ahead and execute other threads.</p>
 <h2 id="9-switch-in-threads">9. Switch in threads</h2>
 <p>A thread switch occurs in uthreads when a thread calls uthread_block() or uthread_yield(). This places the current thread on the ready queue and dequeues something else on the ready queue to begin execution.
-The actual change in execution is achieved by pushing the register of the first thread onto its stack (save the register values), saving its current stack pointer in its TCB and then swiching the value of the stack pointer register to point to the target thread's stack. Then the CPU pops the registers of this new thread from its stack, and resumes execution.</p>
+The actual change in execution is achieved by pushing the register of the first thread onto its stack (save the register values), saving its current stack pointer in its TCB and then swiching the value of the stack pointer register to point to the target thread&rsquo;s stack. Then the CPU pops the registers of this new thread from its stack, and resumes execution.</p>
 <h2 id="10-thread-scheduler">10. thread scheduler</h2>
 <p>The thread scheduler decides which thread should execute next.</p>
 <h2 id="11-priority-based-round-robin-scheduling">11. priority-based, round-robin scheduling</h2>
@@ -304,7 +308,7 @@ The actual change in execution is achieved by pushing the register of the first 
 <h2 id="12-quantum-preemption">12. Quantum preemption</h2>
 <p>It would allow for all threads of equal priority to get an equal share of the CPU by periodically interrupting and switching threads.</p>
 <h2 id="13-busy-waiting-vs-blocking">13. busy-waiting vs blocking</h2>
-<p>Busy waiting occurs when a thread waits for a lock to be free by actively polling the lock's value, spinning in a loop repeated reading it until it see that it is available.
+<p>Busy waiting occurs when a thread waits for a lock to be free by actively polling the lock&rsquo;s value, spinning in a loop repeated reading it until it see that it is available.
 Blocking waiting occurs when a thread waits for a lock by sleeping so that other threads can use the CPU. It is the responsibility of the thread that releases the lock to wakeup the waiting thread.</p>
 <h2 id="14-method-to-avoid-stack-smashing">14. Method to avoid stack smashing</h2>
 <p>allocating memory from heap</p>
@@ -312,11 +316,11 @@ Blocking waiting occurs when a thread waits for a lock by sleeping so that other
 <p>This depends on the specific implementation of the thread scheduler. Using some sort of priority system, the unblocked thread will be set to runnable, and placed onto the ready queue with some priority.</p>
 <h2 id="16-function-pointer-syntax">16. Function pointer syntax</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">apply</span> (<span style="color:#66d9ef">int</span> (<span style="color:#f92672">*</span>f)(<span style="color:#66d9ef">int</span>,<span style="color:#66d9ef">int</span>), <span style="color:#66d9ef">int</span><span style="color:#f92672">*</span> a, <span style="color:#66d9ef">int</span> n) {
-  <span style="color:#66d9ef">if</span>(n <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>)
+  <span style="color:#66d9ef">if</span>(n <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
   <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
   <span style="color:#66d9ef">else</span> 
     <span style="color:#66d9ef">int</span> v <span style="color:#f92672">=</span> a[<span style="color:#ae81ff">0</span>];
-  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">+</span><span style="color:#f92672">+</span>) {
+  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
     v <span style="color:#f92672">=</span> f(v,a[i]);
   }
   <span style="color:#66d9ef">return</span> v;
@@ -327,7 +331,7 @@ Blocking waiting occurs when a thread waits for a lock by sleeping so that other
 <li>Array overflow</li>
 <li>Memory lock</li>
 <li>Deadlock</li>
-<li>ref_count (global pointer check if it's null / initial value(0) / dec_ref</li>
+<li>ref_count (global pointer check if it&rsquo;s null / initial value(0) / dec_ref</li>
 <li>size for malloc</li>
 </ol>
 <h2 id="18-atomic-exchange">18. Atomic exchange</h2>
@@ -335,7 +339,7 @@ Blocking waiting occurs when a thread waits for a lock by sleeping so that other
 exchanging the value of a register and memory location</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">int</span> lock <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
 <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">lock</span> (<span style="color:#66d9ef">int</span><span style="color:#f92672">*</span> lock) {
-  <span style="color:#66d9ef">while</span>(<span style="color:#f92672">*</span>lock <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>) {};  <span style="color:#75715e">// two threads could change the *lock at the same time thinking they hold the lock 
+  <span style="color:#66d9ef">while</span>(<span style="color:#f92672">*</span>lock <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) {};  <span style="color:#75715e">// two threads could change the *lock at the same time thinking they hold the lock 
 </span><span style="color:#75715e"></span>  <span style="color:#f92672">*</span>lock <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
 }
 
@@ -398,7 +402,7 @@ uthread_join(thread name, 0);</p>
              
             <p class="copyright-item">
                 <span>Author:</span>
-                <span>Rui (Ray) </span>
+                <span>Rui </span>
                 </p>
             
            
@@ -413,6 +417,14 @@ uthread_join(thread name, 0);</p>
 
   
     <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://raytrox.github.io/tags/operating-systems/">
+                    #Operating Systems</a></span>
+            
+            </section>
         
         <section>
                 <a href="javascript:window.history.back();">back</a></span> · 
@@ -437,13 +449,13 @@ uthread_join(thread name, 0);</p>
     <div class="copyright">
         &copy;
         
-        <span itemprop="copyrightYear">2020 - 2020</span>
+        <span itemprop="copyrightYear">2020 - 2021</span>
         
         <span class="with-love">
     	 <i class="iconfont icon-love"></i> 
          </span>
          
-            <span class="author" itemprop="copyrightHolder"><a href="https://raytrox.github.io/">Rui (Ray)</a> | </span> 
+            <span class="author" itemprop="copyrightHolder"><a href="https://raytrox.github.io/">Rui</a> | </span> 
          
 
          

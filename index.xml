@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>I&#39;m Rui (Ray) Yin on I&#39;m Rui (Ray) Yin</title>
+    <title>Rui Yin on Rui Yin</title>
     <link>https://raytrox.github.io/</link>
-    <description>Recent content in I&#39;m Rui (Ray) Yin on I&#39;m Rui (Ray) Yin</description>
+    <description>Recent content in Rui Yin on Rui Yin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Jan 2020 19:16:49 -0800</lastBuildDate>
@@ -23,17 +23,35 @@
       <pubDate>Wed, 01 Jan 2020 23:40:25 -0800</pubDate>
       
       <guid>https://raytrox.github.io/about/</guid>
-      <description>&lt;h1 id=&#34;rui-ray-yin&#34;&gt;Rui (Ray) Yin&lt;/h1&gt;
-&lt;p&gt;The pdf version of resume can be downloaded from &lt;a href=&#34;https://raytrox.github.io/files/resume.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;rui-yin&#34;&gt;Rui Yin&lt;/h1&gt;
+&lt;p&gt;The PDF resume can be downloaded &lt;a href=&#34;https://raytrox.github.io/files/resume.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;BSc, Computer Science, University of British Columbia (Vancouver, Canada) | Sep 2016 - current&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Overall GPA: 4.2/4.33 (average: 88.3%)&lt;/li&gt;
+&lt;li&gt;Languages: Java | Golang | Python | JavaScript | TypeScript | C | C++ | SQL | Ruby | Bash&lt;/li&gt;
+&lt;li&gt;Tools: Git | JIRA | Bamboo | Docker | Bitbucket | Nomad | NSQ | Postman | VSCode | IntelliJ | Supervisor&lt;/li&gt;
+&lt;li&gt;Knowledge: RESTful | Computer Networking | Database Design | Machine Learning | OO Design | Distributed Systems&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;working-experience&#34;&gt;Working Experience&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Teaching Assistant, The University of British Columbia｜Sep 2019 - Dec 2019&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;software-developer-netapp-inc---co-op--may-2020---current&#34;&gt;Software developer, NetApp Inc. - Co-op | May 2020 - current&lt;/h3&gt;
+&lt;p&gt;Product: StorageGRID&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Completed several API/UI improvement stories and fixed bugs for StorageGRID, a Distributed Storage platform support AWS S3 and Swift protocol.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Implemented a new feature using Ruby to support secure external Prometheus connection independently with the help of senior developers and presented the feature to the team.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Implemented the UI and the relevant modal for the new feature according to the UI mockup.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Investigated options for adding a read-only mode to the current system, implemented the backend with Ruby and adjusted the frontend accordingly.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tech stack: Ruby on Rails | AngularJS | HTML | CSS | Python | Bash | Prometheus | Grafana | Angular&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;teaching-assistant-the-university-of-british-columbiasep-2019---dec-2019&#34;&gt;Teaching Assistant, The University of British Columbia｜Sep 2019 - Dec 2019&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Instructed students in office hours to aid with assignments, course materials of a 3rd-year course on Operating Systems including debugging assignments and illustrating concepts such as memory hierarchy and file systems.&lt;/p&gt;
@@ -42,7 +60,8 @@
 &lt;p&gt;Invigilated and marked the exams and graded the assignments as directed by instructor.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Software QA engineer, VIPRE (formerly Fusemail) | Jan 2019 - Aug 2019&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;software-qa-engineer-vipre-formerly-fusemail---co-op--jan-2019---aug-2019&#34;&gt;Software QA engineer, VIPRE (formerly Fusemail) - Co-op | Jan 2019 - Aug 2019&lt;/h3&gt;
+&lt;p&gt;Product: VIPRE Security&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Developed a Golang based test automation tool to check result of REST calls. The tool uses docker to bring up all services and check database, NSQ message, HTML response based on the implementation.&lt;/p&gt;
@@ -54,7 +73,8 @@
 &lt;p&gt;Attended daily scrum meetings and worked on various verification tickets across such as UI or database change in both development and staging environment.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Staff Assistant, Beijing BLS Spain Visa Centre ｜ Jan 2016 - May 2016&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tech stack: Golang | Docker | MySQL | Bash | NSQ | Python | Bamboo | RESTful | Supervisor&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;staff-assistant-beijing-bls-spain-visa-centre--jan-2016---may-2016&#34;&gt;Staff Assistant, Beijing BLS Spain Visa Centre ｜ Jan 2016 - May 2016&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Checked information for over 50 applicants per day in a team of 5.&lt;/p&gt;
@@ -63,18 +83,18 @@
 &lt;p&gt;Took fingerprints and photos of over 30 applicants per day Individually.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;academic-projects&#34;&gt;Academic Projects&lt;/h2&gt;
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Course Checker – HTML, Golang, RESTful | Dec 2019 - current&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;course-checker--html-golang-restful--dec-2019---jan-2020&#34;&gt;Course Checker – HTML, Golang, RESTful | Dec 2019 - Jan 2020&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Parsed html and notified the user by sending email once there are seats available.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Ran as a server and took REST request to monitor the specific course in the background.&lt;/p&gt;
+&lt;p&gt;Used ReactJS, semantic UI framework to build the frontend and MongoDB to store the monitoring info.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;DNS Resolver – Java, DNS, UDP | Oct 2019&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;dns-resolver--java-dns-udp--oct-2019&#34;&gt;DNS Resolver – Java, DNS, UDP | Oct 2019&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Recursively make the DNS request to the root server to get the IP address for the given domain.&lt;/p&gt;
@@ -83,7 +103,7 @@
 &lt;p&gt;Extracted information from DNS responses based on DNS packet compression rule.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Insight UBC – TypeScript, HTML, CSS, RESTful, Query Language Design, Testing | Sep 2018 - Dec 2018&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;insight-ubc--typescript-html-css-restful-query-language-design-testing--sep-2018---dec-2018&#34;&gt;Insight UBC – TypeScript, HTML, CSS, RESTful, Query Language Design, Testing | Sep 2018 - Dec 2018&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Implemented a RESTful web server using TypeScript as backend and Bootstrap as frontend.&lt;/p&gt;
@@ -95,11 +115,11 @@
 &lt;p&gt;Implemented a recursive method to achieve the same functionality as Document.getElementById()&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Disassembler – Assembly Language, C, GDB | Jul 2018&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;disassembler--assembly-language-c-gdb--jul-2018&#34;&gt;Disassembler – Assembly Language, C, GDB | Jul 2018&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Build an application in C that translate the binary file to corresponding Assembly code.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Online Shopping Database – Oracle SQL, Java, JDBC | Feb 2018 - Apr 2018&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;online-shopping-database--oracle-sql-java-jdbc--feb-2018---apr-2018&#34;&gt;Online Shopping Database – Oracle SQL, Java, JDBC | Feb 2018 - Apr 2018&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Designed and built a relational database application for an online shopping system to manage stock, financial and customer data using Oracle SQL queries.&lt;/p&gt;
@@ -111,13 +131,24 @@
 &lt;p&gt;Developed a friendly multi-user interface using Java, wrote an automated test and presented to TAs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Buses’R’Us Android App – Junit Test, XML, JSON parsing, Java | Mar 2017 - Apr 2017&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;busesrus-android-app--junit-test-xml-json-parsing-java--mar-2017---apr-2017&#34;&gt;Buses’R’Us Android App – Junit Test, XML, JSON parsing, Java | Mar 2017 - Apr 2017&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Developed an Android app that maps the location of stops and bus routes on the Vancouver Transit System.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Used XML parsing and JSON parsing to parse Translink arrival and departure data from the AOI to display information and implemented the Junit test framework to test the functionality of each component.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;BSc, Computer Science, University of British Columbia (Vancouver, Canada) | Sep 2016 - current (Expected graduation date: May 2021)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Cumulative GPA: 4.2/4.33 (average: 88.8%)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Major GPA: 4.3/4.33 (average: 89.6%)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;awards&#34;&gt;Awards&lt;/h2&gt;
